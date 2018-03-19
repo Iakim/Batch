@@ -323,12 +323,12 @@ goto cpu1
 cls
 if '%cpuatk2%'=='0' goto nocpuatk2
 echo.
-echo Eu mandei %meme% segurar minha marimba e %meme% gostou!
+echo Eu perguntei "Que tiro foi esse?" e %meme% foi baleada!
 echo.
 ping localhost -n 4 >nul
-echo Machistas nao passarao!
+echo Que tiro foi esse viado?
 echo.
-echo %meme% tera que pagar 300 temeres pelo programa!
+echo %meme% gastou 200 mangos com despesas medicas!
 echo.
 pause
 ping localhost -n 4 >nul
@@ -350,12 +350,12 @@ goto cpu1
 cls
 if '%cpuatk3%'=='0' goto nocpuatk3
 echo.
-echo Eu perguntei "Que tiro foi esse?" e %meme% foi baleada!
+echo Eu mandei %meme% segurar minha marimba e %meme% gostou!
 echo.
 ping localhost -n 4 >nul
-echo Que tiro foi esse viado?
+echo Machistas nao passarao!
 echo.
-echo %meme% gastou 200 mangos com despesas medicas!
+echo %meme% tera que pagar 300 temeres pelo programa!
 echo.
 pause
 ping localhost -n 4 >nul
@@ -658,12 +658,12 @@ goto p2gameplay
 cls
 if '%p2atk2%'=='0' goto nop2atk2
 echo.
-echo %p2name% mandou %p1meme% segurar minha marimba e %p1meme% gostou!
+echo %p2name% perguntou "Que tiro foi esse?" e %p1meme% foi baleada!
 echo.
 ping localhost -n 4 >nul
-echo Machistas nao passarao!
+echo Que tiro foi esse viado?
 echo.
-echo %p1meme% tera que pagar 300 temeres pelo programa!
+echo %p1meme% gastou 200 mangos com despesas medicas!
 echo.
 pause
 set /a p1health=%p1health% - 300
@@ -683,12 +683,12 @@ goto p2gameplay
 cls
 if '%p2atk3%'=='0' goto nop2atk3
 echo.
-echo %p2name% perguntou "Que tiro foi esse?" e %p1meme% foi baleada!
+echo %p2name% mandou %p1meme% segurar minha marimba e %p1meme% gostou!
 echo.
 ping localhost -n 4 >nul
-echo Que tiro foi esse viado?
+echo Machistas nao passarao!
 echo.
-echo %p1meme% gastou 200 mangos com despesas medicas!
+echo %p1meme% tera que pagar 300 temeres pelo programa!
 echo.
 pause
 set /a p1health=%p1health% - 200
@@ -740,4 +740,4 @@ echo.
 echo Antes de sair, sugira um novo meme para o The Game Of Memes.
 echo.
 set /p suggestion=Abra uma Issue ou um Pull Request, aperte enter para continuar:
-start /MAX "C:\Program Files\Internet Explorer\iexplore.exe" "http://www.github.com/iakim"
+start /MAX "C:\Program Files\Internet Explorer\iexplore.exe" "https://github.com/Iakim/batch"
