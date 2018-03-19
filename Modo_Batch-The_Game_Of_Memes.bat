@@ -1,6 +1,6 @@
 @echo off
 color 0c
-title Modo Batch - The Game Of Memes.
+title Modo Batch - The Game Of Memes (Create By Iakim).
 :jogadores
 cls
 set jogador=
