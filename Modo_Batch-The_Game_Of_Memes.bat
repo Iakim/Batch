@@ -8,6 +8,31 @@ set replay=
 echo.
 echo Bem vindo ao Modo Batch - The Game Of Memes.
 echo.
+echo       ___           ___           ___           ___
+echo      /\__\         /\  \         /\  \         /\  \
+echo     /  l  l       /  \  \       /  \  \       /  \  \
+echo    / l l  l      / /\ \  \     / /\ \  \     / /\ \  \
+echo   / /l l__l__   / /  \ \  \   / /  \ \__\   / /  \ \  \
+echo  / / l    \__\ / /__/ \ \__\ / /__/ \ l__l / /__/ \ \__\
+echo  \/__/__/ /  / \ \  \ / /  / \ \  \ / /  / \ \  \ / /  /
+echo        / /  /   \ \  / /  /   \ \  / /  /   \ \  / /  /
+echo       / /  /     \ \/ /  /     \ \/ /  /     \ \/ /  /
+echo      / /  /       \  /  /       \  /__/       \  /  /
+echo      \/__/         \/__/         ~~            \/__/
+echo       ___           ___           ___           ___           ___     
+echo      /\  \         /\  \         /\  \         /\  \         /\__\    
+echo     /  \  \       /  \  \        \ \  \       /  \  \       / /  /    
+echo    / /\ \  \     / /\ \  \        \ \  \     / /\ \  \     / /__/     
+echo   /  \~\ \__\   /  \~\ \  \       /  \  \   / /  \ \  \   /  \  \ ___ 
+echo  / /\ \ \ l__l / /\ \ \ \__\     / /\ \__\ / /__/ \ \__\ / /\ \  /\__\
+echo  \ \~\ \/ /  / \/__\ \/ /  /    / /  \/__/ \ \  \  \/__/ \/__\ \/ /  /
+echo   \ \ \  /  /       \  /  /    / /  /       \ \  \            \  /  / 
+echo    \ \/ /  /        / /  /    / /  /         \ \  \           / /  /  
+echo     \  /__/        / /  /    / /  /           \ \__\         / /  /   
+echo      ~~            \/__/     \/__/             \/__/         \/__/  
+pause
+cls
+echo.
 set /p jogador=Selecione 1 ou 2 jogadores:
 if '%jogador%'=='1' goto name
 if '%jogador%'=='2' goto p1name
