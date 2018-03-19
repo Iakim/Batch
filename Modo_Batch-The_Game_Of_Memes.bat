@@ -739,6 +739,5 @@ cls
 echo.
 echo Antes de sair, sugira um novo meme para o The Game Of Memes.
 echo.
-set /p suggestion=Qual a sugestao de meme:
-if '%suggestion%'=='' goto suggest
-echo %suggestion% >> memes.txt
+set /p suggestion=Abra uma Issue ou um Pull Request, aperte enter para continuar:
+start /MAX "C:\Program Files\Internet Explorer\iexplore.exe" "http://www.github.com/iakim"
