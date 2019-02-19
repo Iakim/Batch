@@ -7,6 +7,7 @@ set jogador=
 set replay=
 echo.
 echo Bem vindo ao Modo Batch - The Game Of Memes.
+echo Em memória de Jailson Mendes, o eterno pai de família!
 echo.
 echo       ___           ___           ___           ___
 echo      /\__\         /\  \         /\  \         /\  \
